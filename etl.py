@@ -25,6 +25,7 @@ def main():
     DB_USER='awsuser'
     DB_PASSWORD=''
     DB_PORT=5439
+    
         # Added a comment to track the progress
     print('db')
     conn = psycopg2.connect(
