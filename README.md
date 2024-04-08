@@ -42,7 +42,7 @@ songplay_table - records in event data associated with song plays. Columns for t
     song_id, title, artist_id, year, duration
 
 ##### artist_table
-
+ 
     artist_id, name, location, lattitude, longitude
 
 ##### time_table
