@@ -52,7 +52,7 @@ The chosen schema for this project is a star schema. A star schema is a simple a
 
 In this case, the fact table is the songplays table, which records information about the songs played by users. It contains foreign keys to the dimension tables and captures the details of each song play event.
 
-## Project Structure
+## Project Structure 
 The project repository contains the following files:
 
     create_tables.py: This script connects to the Redshift database, drops any existing tables, and creates new tables based on the SQL statements defined in sql_queries.py.
