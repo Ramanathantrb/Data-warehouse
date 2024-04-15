@@ -58,7 +58,7 @@ The project repository contains the following files:
     create_tables.py: This script connects to the Redshift database, drops any existing tables, and creates new tables based on the SQL statements defined in sql_queries.py.
     etl.py: This script connects to the Redshift database, loads data from S3 into staging tables, and then transforms and loads the data into the analytics tables.
     sql_queries.py: This file contains all the SQL queries used in the project, including the CREATE, DROP, and INSERT statements for the tables.
-    dwh.cfg: This configuration file contains the necessary settings for connecting to the Redshift cluster and accessing the input data on S3.
+    dwh.cfg: This configuration file contains the necessary settings for connecting to the Redshift cluster and accessing the input data on S3. 
 
 ## How to run the scripts
 
