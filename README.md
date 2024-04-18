@@ -32,7 +32,7 @@ The database schema follows a star schema design, consisting of one fact table a
 songplay_table - records in event data associated with song plays. Columns for the table:
 
     songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
-
+ 
 #### Dimension Tables 
 ##### user_table
 
